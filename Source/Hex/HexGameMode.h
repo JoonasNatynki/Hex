@@ -8,12 +8,31 @@
 /**
  * 
  */
+/*
+UENUM(BlueprintType)
+enum class ERoundState
+{
+	EOn,
+	EEnded,
+	EWaitingForNewRound,
+	ENewRoundFreeze
+};
+*/
+
 UCLASS()
 class HEX_API AHexGameMode : public AGameMode
 {
 	GENERATED_BODY()
+public:
+
+	/*
+	UFUNCTION(BlueprintPure, Category = "Round")
+		ERoundState GetRoundState() const;
+	UFUNCTION(BlueprintCallable, Category = "Round")
+		void SetRoundState(ERoundState newState);
 	
 	
-	
+	ERoundState RoundState;
+	*/
 	
 };
