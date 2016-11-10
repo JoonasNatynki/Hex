@@ -3,6 +3,17 @@
 #include "Hex.h"
 #include "HexGameMode.h"
 
+/*
 
+ERoundState AHexGameMode::GetRoundState() const 
+{
+	return RoundState;
+}
+
+void AHexGameMode::SetRoundState(ERoundState newState)
+{
+	RoundState = newState;
+}
+*/
 
 
